@@ -12,9 +12,9 @@
 
     <div class="container">
 
-        <div class="fist-step">
+        <div class="first-step">
             <p>Clique no botão para calcular o IMC</p>
-            <button>iniciar</button>
+            <button onclick="go(1,2)" >iniciar</button>
         </div>
         <div class="second-step">
             <h3>Canculadora IMC</h3>
@@ -25,15 +25,16 @@
             <label for="altura">Digite sua altura:</label>
             <input type="number" placeholder="Sua altura" id="altura"> 
             <br><br>
-            <button>calcular</button>
+            <button onclick="validate()">calcular</button>
         </div>
         <div class="final-step">
             <h3>Resultado!</h3>
-            <p id="resultado">...</p>
-            <button>Calcular novamente</button>
-            <button>Finalizar</button>
+            <p id="resultado"></p>
+            <button onclick="go(3,2)">Calcular novamente</button>
+            <button onclick="go(3,1)">Finalizar</button>
         </div>
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

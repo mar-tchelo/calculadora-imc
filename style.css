@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 body{
-    font-family:arial;
+    font-family: 'Poppins', sans-serif;
     background:linear-gradient(to right, rgb(29,136,207), rgb(110,25,143));
     text-align: center;
     color: #fff;
+    
 }
 
 .container{
@@ -31,7 +34,7 @@ button:hover{
    background-color: steelblue; 
 }
 
-.fist-step,
+.final-step,
 .second-step{
     display: none;
 }
@@ -41,4 +44,10 @@ input{
     border-radius: 5px;
     border: none;
     outline: none;
+    
+}
+
+#resultado {
+    font-size: 20px;
+    
 }
